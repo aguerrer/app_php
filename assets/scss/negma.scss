@@ -1,0 +1,80 @@
+/*************************** NeGmA ************************/
+
+.search {
+
+	background-color: #f4f4f4;
+
+	.search_left {
+
+		display:inline-block;
+		vertical-align:top;
+		width:44%;
+		background-color:#fff;
+		@include border-radius(10px);
+		padding:20px;
+		margin:25px 20px 25px 0;
+
+	}
+
+	.search_right {
+
+		display:inline-block;
+		vertical-align:top;
+		width:44%;
+		background-color:#fff;
+		@include border-radius(10px);
+		
+		margin:25px 0;
+
+		.num_encontrados {
+
+			background-color:$blue_light;
+			display: block;
+			padding:15px;
+			@include border-radius(10px 10px 0 0);
+			color:#fff;	
+
+		}
+
+		.perfil {
+
+			display:inline-block;
+			vertical-align:top;
+			width:44%;
+			padding:10px;
+			margin:0 10px;
+
+			img {
+				
+				width:80px;
+				height:80px;
+				@include border-radius(50px);
+				float:left;
+				margin-right:10px;
+
+
+			}
+			
+			a {
+
+				font-family: 'intro_bookregular', sans-serif;
+
+			}
+				
+			p {
+				
+				font-family: 'intro_bookregular', sans-serif;
+
+				b{
+					
+					font-weight:bold;
+
+				}
+			}
+
+		}
+
+	}
+
+
+}
