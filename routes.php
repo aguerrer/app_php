@@ -9,8 +9,8 @@
 
 	$routes = array(
 
-		
-		'perm'                    => array('view'       =>  'perm:layout'),
+		'404'                     => array('view'       =>  '404:no_layout'),
+		'acceso_denegado'         => array('view'       =>  'perm:layout'),
 		'admin'  		          => array('view'       =>  'dashboard:admin_layout', 'perm' => array('admin')),
 		'login_form'  		      => array('view'       =>  'login:no_layout'),
 		'login'  		          => array('controller' =>  'login:user'),

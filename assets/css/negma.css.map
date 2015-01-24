@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAM;EACL,gBAAgB,EAHV,OAAO;EAIb,MAAM,EAAC,IAAI;EACX,KAAK,EAAC,IAAI;EACV,OAAO,EAAC,KAAK;EACb,QAAQ,EAAC,QAAQ;EACjB,oBAAe;IACd,SAAS,EAAC,IAAI;IACd,OAAO,EAAC,KAAK;IACb,MAAM,EAAC,MAAM",
+"sources": ["../scss/negma.scss"],
+"names": [],
+"file": "negma.css"
+}

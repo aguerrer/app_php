@@ -14,11 +14,11 @@
 
 
 
-    define('URL', 'http://localhost/couch/');
-    define('PATH', $_SERVER['DOCUMENT_ROOT'].'/couch/');
+    define('URL', 'http://localhost/negma/');
+    define('PATH', $_SERVER['DOCUMENT_ROOT'].'/negma/');
     // LOCAL variable que define si el sitio esta local o en linea, si esta en linea el valor debe ser null sino debe ser /sitio/
-    define('LOCAL', '/couch/');
-    define('SITENAME', 'couch');
+    define('LOCAL', '/negma/');
+    define('SITENAME', 'negma pro');
     define('DBNAME', 'couch');
     define('HOST', 'localhost');
     define('USER', 'root');
@@ -26,7 +26,7 @@
 
   
 
-    $files = glob(PATH.'/vendor/*.php');
+    $files = glob(PATH.'vendor/*.php');
  
 
     foreach ($files as $file) {

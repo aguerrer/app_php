@@ -1,27 +1,26 @@
 	
 	<footer>
 		
-		<div class="copyrigth">
-			© Todos los derechos reservados Ilumno 2014.
-		</div>
-		<div class="logo">
-			<img src="<?php echo URL ?>assets/img/ilumno.png" alt="">
-		</div>
-	
+		
 
 	</footer>
 
 
 
 
-	<script type="text/javascript">
-
-		
-
-	</script>	
 	
-	<noscript></noscript>
-	<script type="text/javascript" src="<?php echo URL.'assets/js/function.js'; ?>"></script>
+	<script >
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-55919631-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<noscript>Tu navegador no soporta javascript!</noscript>
+	
 	</body>
 
 </html>
